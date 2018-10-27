@@ -15,6 +15,7 @@ public:
 
 private:
 
+    char* name;
     Character[5] team;
 
 
