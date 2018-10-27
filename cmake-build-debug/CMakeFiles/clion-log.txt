@@ -1,0 +1,41 @@
+"C:\Program Files\JetBrains\CLion 2018.1.1\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" B:\Lucas\Desktop\PanKnights
+-- The C compiler identification is MSVC 19.12.25835.0
+-- The CXX compiler identification is MSVC 19.12.25835.0
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.12.25827/bin/Hostx86/x86/cl.exe
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.12.25827/bin/Hostx86/x86/cl.exe -- broken
+CMake Error at C:/Program Files/JetBrains/CLion 2018.1.1/bin/cmake/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake:52 (message):
+  The C compiler
+
+    "C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.12.25827/bin/Hostx86/x86/cl.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: B:/Lucas/Desktop/PanKnights/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command:"nmake" "/NOLOGO" "cmTC_bce0f\fast"
+    	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_bce0f.dir\build.make /nologo -L                  CMakeFiles\cmTC_bce0f.dir\build
+    Building C object CMakeFiles/cmTC_bce0f.dir/testCCompiler.c.obj
+    	C:\PROGRA~2\MICROS~3\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\Hostx86\x86\cl.exe @C:\Users\Lucas\AppData\Local\Temp\nmC761.tmp
+    testCCompiler.c
+    Linking C executable cmTC_bce0f.exe
+    	"C:\Program Files\JetBrains\CLion 2018.1.1\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_bce0f.dir --manifests  -- C:\PROGRA~2\MICROS~3\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_bce0f.dir\objects1.rsp @C:\Users\Lucas\AppData\Local\Temp\nmC7B0.tmp
+    LINK Pass 1: command "C:\PROGRA~2\MICROS~3\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_bce0f.dir\objects1.rsp /out:cmTC_bce0f.exe /implib:cmTC_bce0f.lib /pdb:B:\Lucas\Desktop\PanKnights\cmake-build-debug\CMakeFiles\CMakeTmp\cmTC_bce0f.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_bce0f.dir/intermediate.manifest CMakeFiles\cmTC_bce0f.dir/manifest.res" failed (exit code 1104) with the following output:
+    LINK : fatal error LNK1104: Datei "ucrtd.lib" kann nicht geâ”œÃ€ffnet werden.
+    NMAKE : fatal error U1077: ""C:\Program Files\JetBrains\CLion 2018.1.1\bin\cmake\bin\cmake.exe"": RÂ³ckgabe-Code "0xffffffff"
+    Stop.
+    NMAKE : fatal error U1077: ""C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\nmake.exe"": RÂ³ckgabe-Code "0x2"
+    Stop.
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "B:/Lucas/Desktop/PanKnights/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "B:/Lucas/Desktop/PanKnights/cmake-build-debug/CMakeFiles/CMakeError.log".
