@@ -3,12 +3,12 @@ project(PanKnights)
 
 set(CMAKE_CXX_STANDARD 17)
 
-option(BUILD_SUBDIR1 "Enable building Server" ON)
-option(BUILD_SUBDIR2 "Enable building Client" ON)
+option(SERVER "Enable building Server" ON)
+option(CLIENT "Enable building Client" ON)
 
-if(BUILD_SUBDIR1)
+if(SERVER)
     add_subdirectory(Server)
 endif()
-if(BUILD_SUBDIR2)
+if(CLIENT)
     add_subdirectory(Client)
 endif()

@@ -31,6 +31,6 @@
 *.out
 *.app
 
-#make debug files
-cmake-build-debug
-.idea
+#ignore folder
+cmake-build-debug/
+.idea/
