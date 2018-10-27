@@ -1,9 +1,15 @@
 #include <iostream>
 
-#include "IO/start.cpp"
+#include "GUI/gui.cpp"
+
 
 int main() {
-    startup();
-    std::cout << "Have a nice Day!" << std::endl;
+
+    frame("\t\t\t\tHello Adventurer!\t\t\t\t");
+
+    main_menu();
+
+    std::cout << "Goodbye!" << std::endl;
+
     return 0;
 }
