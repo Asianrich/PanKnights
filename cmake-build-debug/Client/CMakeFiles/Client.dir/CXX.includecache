@@ -6,6 +6,7 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
 B:/Lucas/Desktop/PanKnights/Client/IO/start.cpp
 iostream
 -
@@ -13,6 +14,9 @@ string
 -
 
 B:/Lucas/Desktop/PanKnights/Client/client_main.cpp
+=======
+C:/Users/manhk/CLionProjects/PanKnights/Client/client_main.cpp
+>>>>>>> d5e0ed296101b188bd21b66f7ce4169ed7c34cf0
 iostream
 -
 IO/start.cpp
