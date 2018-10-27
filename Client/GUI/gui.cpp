@@ -3,6 +3,7 @@
 //
 #include <iostream>
 #include <string>
+#include "../settings.cpp"
 
 using namespace std;
 
@@ -122,12 +123,30 @@ void takeaction(){
 
     cout << "Select an Option:" << endl;
 
-    cout << 5;
+    cout << cteam.getsize()+1;
     cout << "Back" << endl;
 
+    cout << cteam.getsize()+2;
     cout << "Exit" << endl;
 
     cin >> option;
+
+
+    if(option > 0 option < cteam.getsize()){
+
+    }
+    else if(option == cteam.getsize()+1){
+        if(exit()) return;
+        else return takeaction();
+    }
+    else if(option == cteam.getsize()+2){
+        if(exit()) return;
+        else return takeaction();
+    }
+    else{
+        cout << "Please make a selection" << endl;
+        return takeaction();
+    }
 
     switch(option){
         case 1:{
@@ -154,7 +173,7 @@ void takeaction(){
             cout << "Not implemented jet" << endl;
             break;
         }
-        case 7:{
+        case cteam.getsize()+2:{
             if(exit()) return;
             else return takeaction();
         }

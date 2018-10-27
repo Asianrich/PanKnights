@@ -42,6 +42,11 @@ install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 
+#.idea ignore
+workspace.xml
+usage.statistics.xml
+tasks.xml 
+
 #ignore folder
 cmake-build-debug
-.idea
+*.iml 
