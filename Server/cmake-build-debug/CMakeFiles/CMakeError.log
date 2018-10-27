@@ -1,0 +1,56 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.12.25827/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+2
+Microsoft (R) C/C++-Optimierungscompiler Version 19.12.25835 fÅr x86
+Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.12.25835.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+LINK : fatal error LNK1104: Datei "libucrt.lib" kann nicht geˆffnet werden.
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/VC/Tools/MSVC/14.12.25827/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+2
+Microsoft (R) C/C++-Optimierungscompiler Version 19.12.25835 fÅr x86
+Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.12.25835.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+LINK : fatal error LNK1104: Datei "libucrt.lib" kann nicht geˆffnet werden.
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: B:/Lucas/Desktop/PanKnights/Server/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/NOLOGO" "cmTC_19e36\fast"
+	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_19e36.dir\build.make /nologo -L                  CMakeFiles\cmTC_19e36.dir\build
+Building C object CMakeFiles/cmTC_19e36.dir/testCCompiler.c.obj
+	C:\PROGRA~2\MICROS~3\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\Hostx86\x86\cl.exe @C:\Users\Lucas\AppData\Local\Temp\nm2E26.tmp
+testCCompiler.c
+Linking C executable cmTC_19e36.exe
+	"C:\Program Files\JetBrains\CLion 2018.1.1\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_19e36.dir --manifests  -- C:\PROGRA~2\MICROS~3\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_19e36.dir\objects1.rsp @C:\Users\Lucas\AppData\Local\Temp\nm2F9E.tmp
+LINK Pass 1: command "C:\PROGRA~2\MICROS~3\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_19e36.dir\objects1.rsp /out:cmTC_19e36.exe /implib:cmTC_19e36.lib /pdb:B:\Lucas\Desktop\PanKnights\Server\cmake-build-debug\CMakeFiles\CMakeTmp\cmTC_19e36.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_19e36.dir/intermediate.manifest CMakeFiles\cmTC_19e36.dir/manifest.res" failed (exit code 1104) with the following output:
+LINK : fatal error LNK1104: Datei "ucrtd.lib" kann nicht ge‚îú√Äffnet werden.
+NMAKE : fatal error U1077: ""C:\Program Files\JetBrains\CLion 2018.1.1\bin\cmake\bin\cmake.exe"": R¬≥ckgabe-Code "0xffffffff"
+Stop.
+NMAKE : fatal error U1077: ""C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\HostX86\x86\nmake.exe"": R¬≥ckgabe-Code "0x2"
+Stop.
+
+
