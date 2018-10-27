@@ -20,6 +20,9 @@ BUILD_SUBDIR1:BOOL=ON
 //Enable building Client
 BUILD_SUBDIR2:BOOL=ON
 
+//Enable building Client
+CLIENT:BOOL=ON
+
 //Choose the type of build, options are: None(CMAKE_CXX_FLAGS or
 // CMAKE_C_FLAGS used) Debug Release RelWithDebInfo MinSizeRel.
 CMAKE_BUILD_TYPE:STRING=Debug
@@ -188,6 +191,9 @@ PanKnights_BINARY_DIR:STATIC=B:/Lucas/Desktop/PanKnights/cmake-build-debug
 
 //Value Computed by CMake
 PanKnights_SOURCE_DIR:STATIC=B:/Lucas/Desktop/PanKnights
+
+//Enable building Server
+SERVER:BOOL=ON
 
 //Value Computed by CMake
 untitled_BINARY_DIR:STATIC=B:/Lucas/Desktop/PanKnights/cmake-build-debug/Client

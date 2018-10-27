@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
+B:/Lucas/Desktop/PanKnights/Client/IO/start.cpp
+iostream
+-
+string
+-
+
 B:/Lucas/Desktop/PanKnights/Client/client_main.cpp
 iostream
 -
+IO/start.cpp
+B:/Lucas/Desktop/PanKnights/Client/IO/start.cpp
 

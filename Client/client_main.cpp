@@ -1,6 +1,9 @@
 #include <iostream>
 
+#include "IO/start.cpp"
+
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    startup();
+    std::cout << "Have a nice Day!" << std::endl;
     return 0;
 }
