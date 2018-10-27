@@ -9,13 +9,32 @@
 class Stats {
 public:
 
-    char* getName const();
-    int getLvl const();
-    int getExp const();
+
+    char *getName() const;
+
+    int getLvl() const;
+
+    int getExp() const;
+
+    int getHp() const;
+
+    int getMp() const;
+
+    int getStamina() const;
+
+    int getStrength() const;
+
+    int getIntelligence() const;
+
+    int getAgility() const;
+
+    int getDexterity() const;
+
+    int getVitality() const;
+
+    int getLuck() const;
 
 private:
-
-
     char* name;
     int lvl;
     int exp;
