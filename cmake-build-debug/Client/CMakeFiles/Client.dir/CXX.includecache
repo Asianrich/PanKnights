@@ -6,19 +6,39 @@
 
 #IncludeRegexTransform: 
 
-<<<<<<< HEAD
-B:/Lucas/Desktop/PanKnights/Client/IO/start.cpp
+B:/Lucas/Desktop/PanKnights/Client/GUI/gui.cpp
 iostream
 -
 string
 -
+../settings.cpp
+B:/Lucas/Desktop/PanKnights/Client/settings.cpp
+../../Game/Unit/Team.h
+B:/Lucas/Desktop/PanKnights/Game/Unit/Team.h
 
 B:/Lucas/Desktop/PanKnights/Client/client_main.cpp
-=======
-C:/Users/manhk/CLionProjects/PanKnights/Client/client_main.cpp
->>>>>>> d5e0ed296101b188bd21b66f7ce4169ed7c34cf0
 iostream
 -
-IO/start.cpp
-B:/Lucas/Desktop/PanKnights/Client/IO/start.cpp
+GUI/gui.cpp
+B:/Lucas/Desktop/PanKnights/Client/GUI/gui.cpp
+
+B:/Lucas/Desktop/PanKnights/Client/settings.cpp
+../Game/Unit/Team.h
+B:/Lucas/Desktop/PanKnights/Game/Unit/Team.h
+
+B:/Lucas/Desktop/PanKnights/Game/Unit/Character.h
+Stats.h
+B:/Lucas/Desktop/PanKnights/Game/Unit/Stats.h
+
+B:/Lucas/Desktop/PanKnights/Game/Unit/Stats.h
+
+B:/Lucas/Desktop/PanKnights/Game/Unit/Team.cpp
+cstring
+-
+Team.h
+B:/Lucas/Desktop/PanKnights/Game/Unit/Team.h
+
+B:/Lucas/Desktop/PanKnights/Game/Unit/Team.h
+Character.h
+B:/Lucas/Desktop/PanKnights/Game/Unit/Character.h
 

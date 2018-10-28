@@ -7,7 +7,9 @@ int main() {
 
     frame("\t\t\t\tHello Adventurer!\t\t\t\t");
 
-    main_menu();
+    //takeaction();
+
+
 
     std::cout << "Goodbye!" << std::endl;
 

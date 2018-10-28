@@ -11,11 +11,18 @@ class Team {
 
 public:
 
+    Team();
+
     void addCharacter();
+
+    char* getName();
+    int getSize();
+    Character getCharacter(int i);
 
 private:
 
     char* name;
+    int size = 0;
     Character* team;
 
 

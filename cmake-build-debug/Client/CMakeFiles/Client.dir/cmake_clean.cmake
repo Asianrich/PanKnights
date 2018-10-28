@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Client.dir/client_main.cpp.obj"
+  "CMakeFiles/Client.dir/__/Game/Unit/Team.cpp.obj"
   "Client.pdb"
   "Client.exe"
   "Client.exe.manifest"

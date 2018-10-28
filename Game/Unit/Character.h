@@ -13,6 +13,8 @@ public:
 
     Character();
 
+    char* getName();
+
 private:
 
     char* name;

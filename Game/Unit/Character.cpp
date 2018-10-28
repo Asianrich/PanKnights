@@ -3,3 +3,7 @@
 //
 
 #include "Character.h"
+
+char* Character::getName() {
+    return name;
+}

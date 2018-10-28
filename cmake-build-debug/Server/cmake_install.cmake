@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/manhk/CLionProjects/PanKnights/Server
+# Install script for directory: B:/Lucas/Desktop/PanKnights/Server
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -4,6 +4,7 @@
 #include <iostream>
 #include <string>
 #include "../settings.cpp"
+#include "../../Game/Unit/Team.h"
 
 using namespace std;
 
@@ -118,28 +119,39 @@ void event(){
 
 }
 
+void showcharacter(){
+
+}
+
 void takeaction(){
+
     int option = 0;
-
+    //Team cteam = Team();
+    //cteam.getSize();
     cout << "Select an Option:" << endl;
+/*
+    for(int i = 0; i< cteam.getSize(); i++){
+        cout << i+1;
+        cout << ". ";
+        cout << cteam.getCharacter(i).getName() << endl;
+    }
 
-    cout << cteam.getsize()+1;
-    cout << "Back" << endl;
+    cout << cteam.getSize()+1;
+    cout << ". Back" << endl;
 
-    cout << cteam.getsize()+2;
-    cout << "Exit" << endl;
+    cout << cteam.getSize()+2;
+    cout << ". Exit" << endl;
 
     cin >> option;
 
-
-    if(option > 0 option < cteam.getsize()){
+    if(option > 0 && option <= cteam.getSize()){
 
     }
-    else if(option == cteam.getsize()+1){
+    else if(option == cteam.getSize()+1){
         if(exit()) return;
         else return takeaction();
     }
-    else if(option == cteam.getsize()+2){
+    else if(option == cteam.getSize()+2){
         if(exit()) return;
         else return takeaction();
     }
@@ -147,38 +159,5 @@ void takeaction(){
         cout << "Please make a selection" << endl;
         return takeaction();
     }
-
-    switch(option){
-        case 1:{
-            cout << "Not implemented jet" << endl;
-            break;
-        }
-        case 2:{
-            cout << "Not implemented jet" << endl;
-            break;
-        }
-        case 3:{
-            cout << "Not implemented jet" << endl;
-            break;
-        }
-        case 4:{
-            cout << "Not implemented jet" << endl;
-            break;
-        }
-        case 5:{
-            cout << "Not implemented jet" << endl;
-            break;
-        }
-        case 6:{
-            cout << "Not implemented jet" << endl;
-            break;
-        }
-        case cteam.getsize()+2:{
-            if(exit()) return;
-            else return takeaction();
-        }
-        default:
-            cout << "Please make a selection" << endl;
-            return takeaction();
-    }
+    */
 }

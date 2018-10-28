@@ -8,121 +8,276 @@
 		<Option virtualFolders="CMake Files\;CMake Files\Server\;CMake Files\Client\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/manhk/CLionProjects/PanKnights/cmake-build-debug/Server"/>
+				<Option working_dir="B:/Lucas/Desktop/PanKnights/cmake-build-debug/Server"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\manhk\CLionProjects\PanKnights\cmake-build-debug\Server\Makefile VERBOSE=1 all"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\manhk\CLionProjects\PanKnights\cmake-build-debug\Server\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\manhk\CLionProjects\PanKnights\cmake-build-debug\Server\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\manhk\CLionProjects\PanKnights\cmake-build-debug\Server\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Server">
-				<Option output="C:/Users/manhk/CLionProjects/PanKnights/cmake-build-debug/Server/Server.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/manhk/CLionProjects/PanKnights/cmake-build-debug/Server"/>
+				<Option output="B:/Lucas/Desktop/PanKnights/cmake-build-debug/Server/Server.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="B:/Lucas/Desktop/PanKnights/cmake-build-debug/Server"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\manhk\CLionProjects\PanKnights\cmake-build-debug\Server\Makefile VERBOSE=1 Server"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\manhk\CLionProjects\PanKnights\cmake-build-debug\Server\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\manhk\CLionProjects\PanKnights\cmake-build-debug\Server\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\manhk\CLionProjects\PanKnights\cmake-build-debug\Server\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server\Makefile VERBOSE=1 Server"/>
+					<CompileFile command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Server/fast">
-				<Option output="C:/Users/manhk/CLionProjects/PanKnights/cmake-build-debug/Server/Server.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/manhk/CLionProjects/PanKnights/cmake-build-debug/Server"/>
+				<Option output="B:/Lucas/Desktop/PanKnights/cmake-build-debug/Server/Server.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="B:/Lucas/Desktop/PanKnights/cmake-build-debug/Server"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\manhk\CLionProjects\PanKnights\cmake-build-debug\Server\Makefile VERBOSE=1 Server/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\manhk\CLionProjects\PanKnights\cmake-build-debug\Server\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\manhk\CLionProjects\PanKnights\cmake-build-debug\Server\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\manhk\CLionProjects\PanKnights\cmake-build-debug\Server\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server\Makefile VERBOSE=1 Server/fast"/>
+					<CompileFile command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Client">
-				<Option output="C:/Users/manhk/CLionProjects/PanKnights/cmake-build-debug/Client/Client.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/manhk/CLionProjects/PanKnights/cmake-build-debug/Client"/>
+			<Target title="Stats">
+				<Option output="B:/Lucas/Desktop/PanKnights/cmake-build-debug/Client/Stats.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="B:/Lucas/Desktop/PanKnights/cmake-build-debug/Client"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\manhk\CLionProjects\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 Client"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\manhk\CLionProjects\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\manhk\CLionProjects\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\manhk\CLionProjects\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 Stats"/>
+					<CompileFile command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Client/fast">
-				<Option output="C:/Users/manhk/CLionProjects/PanKnights/cmake-build-debug/Client/Client.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/manhk/CLionProjects/PanKnights/cmake-build-debug/Client"/>
+			<Target title="Stats/fast">
+				<Option output="B:/Lucas/Desktop/PanKnights/cmake-build-debug/Client/Stats.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="B:/Lucas/Desktop/PanKnights/cmake-build-debug/Client"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\manhk\CLionProjects\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 Client/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\manhk\CLionProjects\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\manhk\CLionProjects\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\manhk\CLionProjects\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 Stats/fast"/>
+					<CompileFile command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Job">
+				<Option output="B:/Lucas/Desktop/PanKnights/cmake-build-debug/Client/Job.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="B:/Lucas/Desktop/PanKnights/cmake-build-debug/Client"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 Job"/>
+					<CompileFile command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Job/fast">
+				<Option output="B:/Lucas/Desktop/PanKnights/cmake-build-debug/Client/Job.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="B:/Lucas/Desktop/PanKnights/cmake-build-debug/Client"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 Job/fast"/>
+					<CompileFile command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Team">
+				<Option output="B:/Lucas/Desktop/PanKnights/cmake-build-debug/Client/Team.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="B:/Lucas/Desktop/PanKnights/cmake-build-debug/Client"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 Team"/>
+					<CompileFile command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Team/fast">
+				<Option output="B:/Lucas/Desktop/PanKnights/cmake-build-debug/Client/Team.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="B:/Lucas/Desktop/PanKnights/cmake-build-debug/Client"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 Team/fast"/>
+					<CompileFile command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Character">
+				<Option output="B:/Lucas/Desktop/PanKnights/cmake-build-debug/Client/Character.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="B:/Lucas/Desktop/PanKnights/cmake-build-debug/Client"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 Character"/>
+					<CompileFile command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Character/fast">
+				<Option output="B:/Lucas/Desktop/PanKnights/cmake-build-debug/Client/Character.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="B:/Lucas/Desktop/PanKnights/cmake-build-debug/Client"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.12.25827\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 Character/fast"/>
+					<CompileFile command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/manhk/CLionProjects/PanKnights/Client/client_main.cpp">
-			<Option target="Client"/>
+		<Unit filename="B:/Lucas/Desktop/PanKnights/Client/client_main.cpp">
+			<Option target="Stats"/>
+			<Option target="Job"/>
+			<Option target="Team"/>
+			<Option target="Character"/>
 		</Unit>
-		<Unit filename="C:/Users/manhk/CLionProjects/PanKnights/Server/server_main.cpp">
+		<Unit filename="B:/Lucas/Desktop/PanKnights/Game/Unit/Character.cpp">
+			<Option target="Character"/>
+		</Unit>
+		<Unit filename="B:/Lucas/Desktop/PanKnights/Game/Unit/Character.h">
+			<Option target="Character"/>
+		</Unit>
+		<Unit filename="B:/Lucas/Desktop/PanKnights/Game/Unit/Job.cpp">
+			<Option target="Job"/>
+		</Unit>
+		<Unit filename="B:/Lucas/Desktop/PanKnights/Game/Unit/Job.h">
+			<Option target="Job"/>
+		</Unit>
+		<Unit filename="B:/Lucas/Desktop/PanKnights/Game/Unit/Stats.cpp">
+			<Option target="Stats"/>
+		</Unit>
+		<Unit filename="B:/Lucas/Desktop/PanKnights/Game/Unit/Stats.h">
+			<Option target="Stats"/>
+		</Unit>
+		<Unit filename="B:/Lucas/Desktop/PanKnights/Game/Unit/Team.cpp">
+			<Option target="Team"/>
+		</Unit>
+		<Unit filename="B:/Lucas/Desktop/PanKnights/Game/Unit/Team.h">
+			<Option target="Team"/>
+		</Unit>
+		<Unit filename="B:/Lucas/Desktop/PanKnights/Server/server_main.cpp">
 			<Option target="Server"/>
 		</Unit>
-		<Unit filename="C:/Users/manhk/CLionProjects/PanKnights/CMakeLists.txt">
+		<Unit filename="B:/Lucas/Desktop/PanKnights/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="C:/Users/manhk/CLionProjects/PanKnights/Server/CMakeLists.txt">
+		<Unit filename="B:/Lucas/Desktop/PanKnights/Server/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Server\"/>
 		</Unit>
-		<Unit filename="C:/Users/manhk/CLionProjects/PanKnights/Client/CMakeLists.txt">
+		<Unit filename="B:/Lucas/Desktop/PanKnights/Client/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Client\"/>
 		</Unit>
 	</Project>
