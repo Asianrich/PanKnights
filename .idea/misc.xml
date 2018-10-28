@@ -5,6 +5,7 @@
     <sourceRoots>
       <file path="$PROJECT_DIR$/Client" />
       <file path="$PROJECT_DIR$/Game" />
+      <file path="$PROJECT_DIR$/Game/Unit" />
       <file path="$PROJECT_DIR$/Server" />
     </sourceRoots>
   </component>

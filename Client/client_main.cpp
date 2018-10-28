@@ -1,6 +1,7 @@
 #include <iostream>
 
 #include "GUI/gui.cpp"
+#include "../Game/Unit/Team.h"
 
 
 int main() {
@@ -9,6 +10,7 @@ int main() {
 
     //takeaction();
 
+    Team test;
 
 
     std::cout << "Goodbye!" << std::endl;
