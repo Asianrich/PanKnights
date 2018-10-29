@@ -4,5 +4,6 @@
 
 #include "../Game/Unit/Team.h"
 
+Team cteam;
 
 

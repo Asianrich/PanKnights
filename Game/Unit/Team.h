@@ -11,8 +11,7 @@ class Team {
 
 public:
 
-    Team();
-
+    int add(int x, int y);
     void addCharacter();
 
     char* getName();

@@ -140,6 +140,138 @@ Server\fast:
 	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server
 .PHONY : Server\fast
 
+__\Game\Unit\Character.obj: __\Game\Unit\Character.cpp.obj
+
+.PHONY : __\Game\Unit\Character.obj
+
+# target to build an object file
+__\Game\Unit\Character.cpp.obj:
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
+	$(MAKE) -f Server\CMakeFiles\Server.dir\build.make /nologo -$(MAKEFLAGS) Server\CMakeFiles\Server.dir\__\Game\Unit\Character.cpp.obj
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server
+.PHONY : __\Game\Unit\Character.cpp.obj
+
+__\Game\Unit\Character.i: __\Game\Unit\Character.cpp.i
+
+.PHONY : __\Game\Unit\Character.i
+
+# target to preprocess a source file
+__\Game\Unit\Character.cpp.i:
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
+	$(MAKE) -f Server\CMakeFiles\Server.dir\build.make /nologo -$(MAKEFLAGS) Server\CMakeFiles\Server.dir\__\Game\Unit\Character.cpp.i
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server
+.PHONY : __\Game\Unit\Character.cpp.i
+
+__\Game\Unit\Character.s: __\Game\Unit\Character.cpp.s
+
+.PHONY : __\Game\Unit\Character.s
+
+# target to generate assembly for a file
+__\Game\Unit\Character.cpp.s:
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
+	$(MAKE) -f Server\CMakeFiles\Server.dir\build.make /nologo -$(MAKEFLAGS) Server\CMakeFiles\Server.dir\__\Game\Unit\Character.cpp.s
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server
+.PHONY : __\Game\Unit\Character.cpp.s
+
+__\Game\Unit\Job.obj: __\Game\Unit\Job.cpp.obj
+
+.PHONY : __\Game\Unit\Job.obj
+
+# target to build an object file
+__\Game\Unit\Job.cpp.obj:
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
+	$(MAKE) -f Server\CMakeFiles\Server.dir\build.make /nologo -$(MAKEFLAGS) Server\CMakeFiles\Server.dir\__\Game\Unit\Job.cpp.obj
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server
+.PHONY : __\Game\Unit\Job.cpp.obj
+
+__\Game\Unit\Job.i: __\Game\Unit\Job.cpp.i
+
+.PHONY : __\Game\Unit\Job.i
+
+# target to preprocess a source file
+__\Game\Unit\Job.cpp.i:
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
+	$(MAKE) -f Server\CMakeFiles\Server.dir\build.make /nologo -$(MAKEFLAGS) Server\CMakeFiles\Server.dir\__\Game\Unit\Job.cpp.i
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server
+.PHONY : __\Game\Unit\Job.cpp.i
+
+__\Game\Unit\Job.s: __\Game\Unit\Job.cpp.s
+
+.PHONY : __\Game\Unit\Job.s
+
+# target to generate assembly for a file
+__\Game\Unit\Job.cpp.s:
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
+	$(MAKE) -f Server\CMakeFiles\Server.dir\build.make /nologo -$(MAKEFLAGS) Server\CMakeFiles\Server.dir\__\Game\Unit\Job.cpp.s
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server
+.PHONY : __\Game\Unit\Job.cpp.s
+
+__\Game\Unit\Stats.obj: __\Game\Unit\Stats.cpp.obj
+
+.PHONY : __\Game\Unit\Stats.obj
+
+# target to build an object file
+__\Game\Unit\Stats.cpp.obj:
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
+	$(MAKE) -f Server\CMakeFiles\Server.dir\build.make /nologo -$(MAKEFLAGS) Server\CMakeFiles\Server.dir\__\Game\Unit\Stats.cpp.obj
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server
+.PHONY : __\Game\Unit\Stats.cpp.obj
+
+__\Game\Unit\Stats.i: __\Game\Unit\Stats.cpp.i
+
+.PHONY : __\Game\Unit\Stats.i
+
+# target to preprocess a source file
+__\Game\Unit\Stats.cpp.i:
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
+	$(MAKE) -f Server\CMakeFiles\Server.dir\build.make /nologo -$(MAKEFLAGS) Server\CMakeFiles\Server.dir\__\Game\Unit\Stats.cpp.i
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server
+.PHONY : __\Game\Unit\Stats.cpp.i
+
+__\Game\Unit\Stats.s: __\Game\Unit\Stats.cpp.s
+
+.PHONY : __\Game\Unit\Stats.s
+
+# target to generate assembly for a file
+__\Game\Unit\Stats.cpp.s:
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
+	$(MAKE) -f Server\CMakeFiles\Server.dir\build.make /nologo -$(MAKEFLAGS) Server\CMakeFiles\Server.dir\__\Game\Unit\Stats.cpp.s
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server
+.PHONY : __\Game\Unit\Stats.cpp.s
+
+__\Game\Unit\Team.obj: __\Game\Unit\Team.cpp.obj
+
+.PHONY : __\Game\Unit\Team.obj
+
+# target to build an object file
+__\Game\Unit\Team.cpp.obj:
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
+	$(MAKE) -f Server\CMakeFiles\Server.dir\build.make /nologo -$(MAKEFLAGS) Server\CMakeFiles\Server.dir\__\Game\Unit\Team.cpp.obj
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server
+.PHONY : __\Game\Unit\Team.cpp.obj
+
+__\Game\Unit\Team.i: __\Game\Unit\Team.cpp.i
+
+.PHONY : __\Game\Unit\Team.i
+
+# target to preprocess a source file
+__\Game\Unit\Team.cpp.i:
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
+	$(MAKE) -f Server\CMakeFiles\Server.dir\build.make /nologo -$(MAKEFLAGS) Server\CMakeFiles\Server.dir\__\Game\Unit\Team.cpp.i
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server
+.PHONY : __\Game\Unit\Team.cpp.i
+
+__\Game\Unit\Team.s: __\Game\Unit\Team.cpp.s
+
+.PHONY : __\Game\Unit\Team.s
+
+# target to generate assembly for a file
+__\Game\Unit\Team.cpp.s:
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
+	$(MAKE) -f Server\CMakeFiles\Server.dir\build.make /nologo -$(MAKEFLAGS) Server\CMakeFiles\Server.dir\__\Game\Unit\Team.cpp.s
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server
+.PHONY : __\Game\Unit\Team.cpp.s
+
 server_main.obj: server_main.cpp.obj
 
 .PHONY : server_main.obj
@@ -182,6 +314,18 @@ help:
 	@echo ... Server
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... __/Game/Unit/Character.obj
+	@echo ... __/Game/Unit/Character.i
+	@echo ... __/Game/Unit/Character.s
+	@echo ... __/Game/Unit/Job.obj
+	@echo ... __/Game/Unit/Job.i
+	@echo ... __/Game/Unit/Job.s
+	@echo ... __/Game/Unit/Stats.obj
+	@echo ... __/Game/Unit/Stats.i
+	@echo ... __/Game/Unit/Stats.s
+	@echo ... __/Game/Unit/Team.obj
+	@echo ... __/Game/Unit/Team.i
+	@echo ... __/Game/Unit/Team.s
 	@echo ... server_main.obj
 	@echo ... server_main.i
 	@echo ... server_main.s

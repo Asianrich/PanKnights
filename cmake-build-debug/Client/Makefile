@@ -122,80 +122,23 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-Client\CMakeFiles\Stats.dir\rule:
+Client\CMakeFiles\Client.dir\rule:
 	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
-	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Client\CMakeFiles\Stats.dir\rule
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Client\CMakeFiles\Client.dir\rule
 	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client
-.PHONY : Client\CMakeFiles\Stats.dir\rule
+.PHONY : Client\CMakeFiles\Client.dir\rule
 
 # Convenience name for target.
-Stats: Client\CMakeFiles\Stats.dir\rule
+Client: Client\CMakeFiles\Client.dir\rule
 
-.PHONY : Stats
+.PHONY : Client
 
 # fast build rule for target.
-Stats\fast:
+Client\fast:
 	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
-	$(MAKE) -f Client\CMakeFiles\Stats.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Stats.dir\build
+	$(MAKE) -f Client\CMakeFiles\Client.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Client.dir\build
 	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client
-.PHONY : Stats\fast
-
-# Convenience name for target.
-Client\CMakeFiles\Job.dir\rule:
-	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
-	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Client\CMakeFiles\Job.dir\rule
-	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client
-.PHONY : Client\CMakeFiles\Job.dir\rule
-
-# Convenience name for target.
-Job: Client\CMakeFiles\Job.dir\rule
-
-.PHONY : Job
-
-# fast build rule for target.
-Job\fast:
-	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
-	$(MAKE) -f Client\CMakeFiles\Job.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Job.dir\build
-	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client
-.PHONY : Job\fast
-
-# Convenience name for target.
-Client\CMakeFiles\Team.dir\rule:
-	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
-	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Client\CMakeFiles\Team.dir\rule
-	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client
-.PHONY : Client\CMakeFiles\Team.dir\rule
-
-# Convenience name for target.
-Team: Client\CMakeFiles\Team.dir\rule
-
-.PHONY : Team
-
-# fast build rule for target.
-Team\fast:
-	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
-	$(MAKE) -f Client\CMakeFiles\Team.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Team.dir\build
-	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client
-.PHONY : Team\fast
-
-# Convenience name for target.
-Client\CMakeFiles\Character.dir\rule:
-	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
-	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Client\CMakeFiles\Character.dir\rule
-	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client
-.PHONY : Client\CMakeFiles\Character.dir\rule
-
-# Convenience name for target.
-Character: Client\CMakeFiles\Character.dir\rule
-
-.PHONY : Character
-
-# fast build rule for target.
-Character\fast:
-	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
-	$(MAKE) -f Client\CMakeFiles\Character.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Character.dir\build
-	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client
-.PHONY : Character\fast
+.PHONY : Client\fast
 
 __\Game\Unit\Character.obj: __\Game\Unit\Character.cpp.obj
 
@@ -204,7 +147,7 @@ __\Game\Unit\Character.obj: __\Game\Unit\Character.cpp.obj
 # target to build an object file
 __\Game\Unit\Character.cpp.obj:
 	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
-	$(MAKE) -f Client\CMakeFiles\Character.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Character.dir\__\Game\Unit\Character.cpp.obj
+	$(MAKE) -f Client\CMakeFiles\Client.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Client.dir\__\Game\Unit\Character.cpp.obj
 	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client
 .PHONY : __\Game\Unit\Character.cpp.obj
 
@@ -215,7 +158,7 @@ __\Game\Unit\Character.i: __\Game\Unit\Character.cpp.i
 # target to preprocess a source file
 __\Game\Unit\Character.cpp.i:
 	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
-	$(MAKE) -f Client\CMakeFiles\Character.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Character.dir\__\Game\Unit\Character.cpp.i
+	$(MAKE) -f Client\CMakeFiles\Client.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Client.dir\__\Game\Unit\Character.cpp.i
 	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client
 .PHONY : __\Game\Unit\Character.cpp.i
 
@@ -226,7 +169,7 @@ __\Game\Unit\Character.s: __\Game\Unit\Character.cpp.s
 # target to generate assembly for a file
 __\Game\Unit\Character.cpp.s:
 	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
-	$(MAKE) -f Client\CMakeFiles\Character.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Character.dir\__\Game\Unit\Character.cpp.s
+	$(MAKE) -f Client\CMakeFiles\Client.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Client.dir\__\Game\Unit\Character.cpp.s
 	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client
 .PHONY : __\Game\Unit\Character.cpp.s
 
@@ -237,7 +180,7 @@ __\Game\Unit\Job.obj: __\Game\Unit\Job.cpp.obj
 # target to build an object file
 __\Game\Unit\Job.cpp.obj:
 	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
-	$(MAKE) -f Client\CMakeFiles\Job.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Job.dir\__\Game\Unit\Job.cpp.obj
+	$(MAKE) -f Client\CMakeFiles\Client.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Client.dir\__\Game\Unit\Job.cpp.obj
 	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client
 .PHONY : __\Game\Unit\Job.cpp.obj
 
@@ -248,7 +191,7 @@ __\Game\Unit\Job.i: __\Game\Unit\Job.cpp.i
 # target to preprocess a source file
 __\Game\Unit\Job.cpp.i:
 	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
-	$(MAKE) -f Client\CMakeFiles\Job.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Job.dir\__\Game\Unit\Job.cpp.i
+	$(MAKE) -f Client\CMakeFiles\Client.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Client.dir\__\Game\Unit\Job.cpp.i
 	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client
 .PHONY : __\Game\Unit\Job.cpp.i
 
@@ -259,7 +202,7 @@ __\Game\Unit\Job.s: __\Game\Unit\Job.cpp.s
 # target to generate assembly for a file
 __\Game\Unit\Job.cpp.s:
 	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
-	$(MAKE) -f Client\CMakeFiles\Job.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Job.dir\__\Game\Unit\Job.cpp.s
+	$(MAKE) -f Client\CMakeFiles\Client.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Client.dir\__\Game\Unit\Job.cpp.s
 	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client
 .PHONY : __\Game\Unit\Job.cpp.s
 
@@ -270,7 +213,7 @@ __\Game\Unit\Stats.obj: __\Game\Unit\Stats.cpp.obj
 # target to build an object file
 __\Game\Unit\Stats.cpp.obj:
 	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
-	$(MAKE) -f Client\CMakeFiles\Stats.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Stats.dir\__\Game\Unit\Stats.cpp.obj
+	$(MAKE) -f Client\CMakeFiles\Client.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Client.dir\__\Game\Unit\Stats.cpp.obj
 	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client
 .PHONY : __\Game\Unit\Stats.cpp.obj
 
@@ -281,7 +224,7 @@ __\Game\Unit\Stats.i: __\Game\Unit\Stats.cpp.i
 # target to preprocess a source file
 __\Game\Unit\Stats.cpp.i:
 	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
-	$(MAKE) -f Client\CMakeFiles\Stats.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Stats.dir\__\Game\Unit\Stats.cpp.i
+	$(MAKE) -f Client\CMakeFiles\Client.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Client.dir\__\Game\Unit\Stats.cpp.i
 	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client
 .PHONY : __\Game\Unit\Stats.cpp.i
 
@@ -292,7 +235,7 @@ __\Game\Unit\Stats.s: __\Game\Unit\Stats.cpp.s
 # target to generate assembly for a file
 __\Game\Unit\Stats.cpp.s:
 	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
-	$(MAKE) -f Client\CMakeFiles\Stats.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Stats.dir\__\Game\Unit\Stats.cpp.s
+	$(MAKE) -f Client\CMakeFiles\Client.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Client.dir\__\Game\Unit\Stats.cpp.s
 	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client
 .PHONY : __\Game\Unit\Stats.cpp.s
 
@@ -303,7 +246,7 @@ __\Game\Unit\Team.obj: __\Game\Unit\Team.cpp.obj
 # target to build an object file
 __\Game\Unit\Team.cpp.obj:
 	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
-	$(MAKE) -f Client\CMakeFiles\Team.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Team.dir\__\Game\Unit\Team.cpp.obj
+	$(MAKE) -f Client\CMakeFiles\Client.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Client.dir\__\Game\Unit\Team.cpp.obj
 	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client
 .PHONY : __\Game\Unit\Team.cpp.obj
 
@@ -314,7 +257,7 @@ __\Game\Unit\Team.i: __\Game\Unit\Team.cpp.i
 # target to preprocess a source file
 __\Game\Unit\Team.cpp.i:
 	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
-	$(MAKE) -f Client\CMakeFiles\Team.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Team.dir\__\Game\Unit\Team.cpp.i
+	$(MAKE) -f Client\CMakeFiles\Client.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Client.dir\__\Game\Unit\Team.cpp.i
 	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client
 .PHONY : __\Game\Unit\Team.cpp.i
 
@@ -325,7 +268,7 @@ __\Game\Unit\Team.s: __\Game\Unit\Team.cpp.s
 # target to generate assembly for a file
 __\Game\Unit\Team.cpp.s:
 	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
-	$(MAKE) -f Client\CMakeFiles\Team.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Team.dir\__\Game\Unit\Team.cpp.s
+	$(MAKE) -f Client\CMakeFiles\Client.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Client.dir\__\Game\Unit\Team.cpp.s
 	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client
 .PHONY : __\Game\Unit\Team.cpp.s
 
@@ -336,10 +279,7 @@ client_main.obj: client_main.cpp.obj
 # target to build an object file
 client_main.cpp.obj:
 	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
-	$(MAKE) -f Client\CMakeFiles\Stats.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Stats.dir\client_main.cpp.obj
-	$(MAKE) -f Client\CMakeFiles\Job.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Job.dir\client_main.cpp.obj
-	$(MAKE) -f Client\CMakeFiles\Team.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Team.dir\client_main.cpp.obj
-	$(MAKE) -f Client\CMakeFiles\Character.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Character.dir\client_main.cpp.obj
+	$(MAKE) -f Client\CMakeFiles\Client.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Client.dir\client_main.cpp.obj
 	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client
 .PHONY : client_main.cpp.obj
 
@@ -350,10 +290,7 @@ client_main.i: client_main.cpp.i
 # target to preprocess a source file
 client_main.cpp.i:
 	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
-	$(MAKE) -f Client\CMakeFiles\Stats.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Stats.dir\client_main.cpp.i
-	$(MAKE) -f Client\CMakeFiles\Job.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Job.dir\client_main.cpp.i
-	$(MAKE) -f Client\CMakeFiles\Team.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Team.dir\client_main.cpp.i
-	$(MAKE) -f Client\CMakeFiles\Character.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Character.dir\client_main.cpp.i
+	$(MAKE) -f Client\CMakeFiles\Client.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Client.dir\client_main.cpp.i
 	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client
 .PHONY : client_main.cpp.i
 
@@ -364,10 +301,7 @@ client_main.s: client_main.cpp.s
 # target to generate assembly for a file
 client_main.cpp.s:
 	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
-	$(MAKE) -f Client\CMakeFiles\Stats.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Stats.dir\client_main.cpp.s
-	$(MAKE) -f Client\CMakeFiles\Job.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Job.dir\client_main.cpp.s
-	$(MAKE) -f Client\CMakeFiles\Team.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Team.dir\client_main.cpp.s
-	$(MAKE) -f Client\CMakeFiles\Character.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Character.dir\client_main.cpp.s
+	$(MAKE) -f Client\CMakeFiles\Client.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Client.dir\client_main.cpp.s
 	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Client
 .PHONY : client_main.cpp.s
 
@@ -377,11 +311,8 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... Stats
-	@echo ... Job
-	@echo ... Team
+	@echo ... Client
 	@echo ... edit_cache
-	@echo ... Character
 	@echo ... rebuild_cache
 	@echo ... __/Game/Unit/Character.obj
 	@echo ... __/Game/Unit/Character.i

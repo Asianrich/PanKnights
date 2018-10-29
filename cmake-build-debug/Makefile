@@ -112,6 +112,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Game
+
+# Build rule for target.
+Game: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Game
+.PHONY : Game
+
+# fast build rule for target.
+Game\fast:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Game.dir\build
+.PHONY : Game\fast
+
+#=============================================================================
 # Target rules for targets named Server
 
 # Build rule for target.
@@ -125,56 +138,152 @@ Server\fast:
 .PHONY : Server\fast
 
 #=============================================================================
-# Target rules for targets named Stats
+# Target rules for targets named Client
 
 # Build rule for target.
-Stats: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Stats
-.PHONY : Stats
+Client: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Client
+.PHONY : Client
 
 # fast build rule for target.
-Stats\fast:
-	$(MAKE) -f Client\CMakeFiles\Stats.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Stats.dir\build
-.PHONY : Stats\fast
+Client\fast:
+	$(MAKE) -f Client\CMakeFiles\Client.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Client.dir\build
+.PHONY : Client\fast
 
-#=============================================================================
-# Target rules for targets named Job
+Game\Unit\Character.obj: Game\Unit\Character.cpp.obj
 
-# Build rule for target.
-Job: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Job
-.PHONY : Job
+.PHONY : Game\Unit\Character.obj
 
-# fast build rule for target.
-Job\fast:
-	$(MAKE) -f Client\CMakeFiles\Job.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Job.dir\build
-.PHONY : Job\fast
+# target to build an object file
+Game\Unit\Character.cpp.obj:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Game.dir\Game\Unit\Character.cpp.obj
+.PHONY : Game\Unit\Character.cpp.obj
 
-#=============================================================================
-# Target rules for targets named Team
+Game\Unit\Character.i: Game\Unit\Character.cpp.i
 
-# Build rule for target.
-Team: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Team
-.PHONY : Team
+.PHONY : Game\Unit\Character.i
 
-# fast build rule for target.
-Team\fast:
-	$(MAKE) -f Client\CMakeFiles\Team.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Team.dir\build
-.PHONY : Team\fast
+# target to preprocess a source file
+Game\Unit\Character.cpp.i:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Game.dir\Game\Unit\Character.cpp.i
+.PHONY : Game\Unit\Character.cpp.i
 
-#=============================================================================
-# Target rules for targets named Character
+Game\Unit\Character.s: Game\Unit\Character.cpp.s
 
-# Build rule for target.
-Character: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Character
-.PHONY : Character
+.PHONY : Game\Unit\Character.s
 
-# fast build rule for target.
-Character\fast:
-	$(MAKE) -f Client\CMakeFiles\Character.dir\build.make /nologo -$(MAKEFLAGS) Client\CMakeFiles\Character.dir\build
-.PHONY : Character\fast
+# target to generate assembly for a file
+Game\Unit\Character.cpp.s:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Game.dir\Game\Unit\Character.cpp.s
+.PHONY : Game\Unit\Character.cpp.s
+
+Game\Unit\Job.obj: Game\Unit\Job.cpp.obj
+
+.PHONY : Game\Unit\Job.obj
+
+# target to build an object file
+Game\Unit\Job.cpp.obj:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Game.dir\Game\Unit\Job.cpp.obj
+.PHONY : Game\Unit\Job.cpp.obj
+
+Game\Unit\Job.i: Game\Unit\Job.cpp.i
+
+.PHONY : Game\Unit\Job.i
+
+# target to preprocess a source file
+Game\Unit\Job.cpp.i:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Game.dir\Game\Unit\Job.cpp.i
+.PHONY : Game\Unit\Job.cpp.i
+
+Game\Unit\Job.s: Game\Unit\Job.cpp.s
+
+.PHONY : Game\Unit\Job.s
+
+# target to generate assembly for a file
+Game\Unit\Job.cpp.s:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Game.dir\Game\Unit\Job.cpp.s
+.PHONY : Game\Unit\Job.cpp.s
+
+Game\Unit\Stats.obj: Game\Unit\Stats.cpp.obj
+
+.PHONY : Game\Unit\Stats.obj
+
+# target to build an object file
+Game\Unit\Stats.cpp.obj:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Game.dir\Game\Unit\Stats.cpp.obj
+.PHONY : Game\Unit\Stats.cpp.obj
+
+Game\Unit\Stats.i: Game\Unit\Stats.cpp.i
+
+.PHONY : Game\Unit\Stats.i
+
+# target to preprocess a source file
+Game\Unit\Stats.cpp.i:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Game.dir\Game\Unit\Stats.cpp.i
+.PHONY : Game\Unit\Stats.cpp.i
+
+Game\Unit\Stats.s: Game\Unit\Stats.cpp.s
+
+.PHONY : Game\Unit\Stats.s
+
+# target to generate assembly for a file
+Game\Unit\Stats.cpp.s:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Game.dir\Game\Unit\Stats.cpp.s
+.PHONY : Game\Unit\Stats.cpp.s
+
+Game\Unit\Team.obj: Game\Unit\Team.cpp.obj
+
+.PHONY : Game\Unit\Team.obj
+
+# target to build an object file
+Game\Unit\Team.cpp.obj:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Game.dir\Game\Unit\Team.cpp.obj
+.PHONY : Game\Unit\Team.cpp.obj
+
+Game\Unit\Team.i: Game\Unit\Team.cpp.i
+
+.PHONY : Game\Unit\Team.i
+
+# target to preprocess a source file
+Game\Unit\Team.cpp.i:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Game.dir\Game\Unit\Team.cpp.i
+.PHONY : Game\Unit\Team.cpp.i
+
+Game\Unit\Team.s: Game\Unit\Team.cpp.s
+
+.PHONY : Game\Unit\Team.s
+
+# target to generate assembly for a file
+Game\Unit\Team.cpp.s:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Game.dir\Game\Unit\Team.cpp.s
+.PHONY : Game\Unit\Team.cpp.s
+
+game_main.obj: game_main.cpp.obj
+
+.PHONY : game_main.obj
+
+# target to build an object file
+game_main.cpp.obj:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Game.dir\game_main.cpp.obj
+.PHONY : game_main.cpp.obj
+
+game_main.i: game_main.cpp.i
+
+.PHONY : game_main.i
+
+# target to preprocess a source file
+game_main.cpp.i:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Game.dir\game_main.cpp.i
+.PHONY : game_main.cpp.i
+
+game_main.s: game_main.cpp.s
+
+.PHONY : game_main.s
+
+# target to generate assembly for a file
+game_main.cpp.s:
+	$(MAKE) -f CMakeFiles\Game.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Game.dir\game_main.cpp.s
+.PHONY : game_main.cpp.s
 
 # Help Target
 help:
@@ -182,13 +291,26 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... Game
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Server
-	@echo ... Stats
-	@echo ... Job
-	@echo ... Team
-	@echo ... Character
+	@echo ... Client
+	@echo ... Game/Unit/Character.obj
+	@echo ... Game/Unit/Character.i
+	@echo ... Game/Unit/Character.s
+	@echo ... Game/Unit/Job.obj
+	@echo ... Game/Unit/Job.i
+	@echo ... Game/Unit/Job.s
+	@echo ... Game/Unit/Stats.obj
+	@echo ... Game/Unit/Stats.i
+	@echo ... Game/Unit/Stats.s
+	@echo ... Game/Unit/Team.obj
+	@echo ... Game/Unit/Team.i
+	@echo ... Game/Unit/Team.s
+	@echo ... game_main.obj
+	@echo ... game_main.i
+	@echo ... game_main.s
 .PHONY : help
 
 

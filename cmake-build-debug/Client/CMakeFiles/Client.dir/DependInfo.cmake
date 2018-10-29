@@ -4,6 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "B:/Lucas/Desktop/PanKnights/Game/Unit/Character.cpp" "B:/Lucas/Desktop/PanKnights/cmake-build-debug/Client/CMakeFiles/Client.dir/__/Game/Unit/Character.cpp.obj"
+  "B:/Lucas/Desktop/PanKnights/Game/Unit/Job.cpp" "B:/Lucas/Desktop/PanKnights/cmake-build-debug/Client/CMakeFiles/Client.dir/__/Game/Unit/Job.cpp.obj"
+  "B:/Lucas/Desktop/PanKnights/Game/Unit/Stats.cpp" "B:/Lucas/Desktop/PanKnights/cmake-build-debug/Client/CMakeFiles/Client.dir/__/Game/Unit/Stats.cpp.obj"
   "B:/Lucas/Desktop/PanKnights/Game/Unit/Team.cpp" "B:/Lucas/Desktop/PanKnights/cmake-build-debug/Client/CMakeFiles/Client.dir/__/Game/Unit/Team.cpp.obj"
   "B:/Lucas/Desktop/PanKnights/Client/client_main.cpp" "B:/Lucas/Desktop/PanKnights/cmake-build-debug/Client/CMakeFiles/Client.dir/client_main.cpp.obj"
   )

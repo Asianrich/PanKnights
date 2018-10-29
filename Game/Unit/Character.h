@@ -11,7 +11,7 @@ class Character {
 
 public:
 
-    Character();
+
 
     char* getName();
 

@@ -5,13 +5,9 @@
 #include <cstring>
 #include "Team.h"
 
-Team::Team(){
-
-    name = 0;
-    size = 0;
-    team = 0;
+int Team::add(int x, int y) {
+    return x+y;
 }
-
 
 char* Team::getName() {
     return name;

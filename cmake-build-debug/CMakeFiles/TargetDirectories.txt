@@ -1,11 +1,9 @@
+B:/Lucas/Desktop/PanKnights/cmake-build-debug/CMakeFiles/Game.dir
 B:/Lucas/Desktop/PanKnights/cmake-build-debug/CMakeFiles/edit_cache.dir
 B:/Lucas/Desktop/PanKnights/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 B:/Lucas/Desktop/PanKnights/cmake-build-debug/Server/CMakeFiles/Server.dir
 B:/Lucas/Desktop/PanKnights/cmake-build-debug/Server/CMakeFiles/edit_cache.dir
 B:/Lucas/Desktop/PanKnights/cmake-build-debug/Server/CMakeFiles/rebuild_cache.dir
-B:/Lucas/Desktop/PanKnights/cmake-build-debug/Client/CMakeFiles/Stats.dir
-B:/Lucas/Desktop/PanKnights/cmake-build-debug/Client/CMakeFiles/Job.dir
-B:/Lucas/Desktop/PanKnights/cmake-build-debug/Client/CMakeFiles/Team.dir
+B:/Lucas/Desktop/PanKnights/cmake-build-debug/Client/CMakeFiles/Client.dir
 B:/Lucas/Desktop/PanKnights/cmake-build-debug/Client/CMakeFiles/edit_cache.dir
-B:/Lucas/Desktop/PanKnights/cmake-build-debug/Client/CMakeFiles/Character.dir
 B:/Lucas/Desktop/PanKnights/cmake-build-debug/Client/CMakeFiles/rebuild_cache.dir

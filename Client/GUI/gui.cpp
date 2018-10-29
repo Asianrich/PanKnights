@@ -126,8 +126,7 @@ void showcharacter(){
 void takeaction(){
 
     int option = 0;
-    //Team cteam = Team();
-    //cteam.getSize();
+
     cout << "Select an Option:" << endl;
 /*
     for(int i = 0; i< cteam.getSize(); i++){

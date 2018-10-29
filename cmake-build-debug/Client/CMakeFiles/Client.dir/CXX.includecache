@@ -21,12 +21,28 @@ iostream
 -
 GUI/gui.cpp
 B:/Lucas/Desktop/PanKnights/Client/GUI/gui.cpp
+../Game/Unit/Team.h
+B:/Lucas/Desktop/PanKnights/Game/Unit/Team.h
 
 B:/Lucas/Desktop/PanKnights/Client/settings.cpp
 ../Game/Unit/Team.h
 B:/Lucas/Desktop/PanKnights/Game/Unit/Team.h
 
+B:/Lucas/Desktop/PanKnights/Game/Unit/Character.cpp
+Character.h
 B:/Lucas/Desktop/PanKnights/Game/Unit/Character.h
+
+B:/Lucas/Desktop/PanKnights/Game/Unit/Character.h
+Stats.h
+B:/Lucas/Desktop/PanKnights/Game/Unit/Stats.h
+
+B:/Lucas/Desktop/PanKnights/Game/Unit/Job.cpp
+Job.h
+B:/Lucas/Desktop/PanKnights/Game/Unit/Job.h
+
+B:/Lucas/Desktop/PanKnights/Game/Unit/Job.h
+
+B:/Lucas/Desktop/PanKnights/Game/Unit/Stats.cpp
 Stats.h
 B:/Lucas/Desktop/PanKnights/Game/Unit/Stats.h
 

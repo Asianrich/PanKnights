@@ -14,6 +14,9 @@
 # EXTERNAL cache entries
 ########################
 
+//Enable building Game
+../Test/Game:BOOL=ON
+
 //Enable building Client
 CLIENT:BOOL=ON
 
@@ -180,23 +183,29 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Enable building Game
+GAME:BOOL=ON
+
+//Enable building Game
+Game:BOOL=ON
+
 //Dependencies for target
 Game_LIB_DEPENDS:STATIC=
 
 //Value Computed by CMake
-PanKnights_BINARY_DIR:STATIC=B:/Lucas/Desktop/PanKnights/cmake-build-debug
+PanKnights_BINARY_DIR:STATIC=B:/Lucas/Desktop/PanKnights/cmake-build-debug/Client
 
 //Value Computed by CMake
-PanKnights_SOURCE_DIR:STATIC=B:/Lucas/Desktop/PanKnights
+PanKnights_SOURCE_DIR:STATIC=B:/Lucas/Desktop/PanKnights/Client
 
 //Enable building Server
 SERVER:BOOL=ON
 
 //Value Computed by CMake
-untitled_BINARY_DIR:STATIC=B:/Lucas/Desktop/PanKnights/cmake-build-debug/Client
+untitled_BINARY_DIR:STATIC=B:/Lucas/Desktop/PanKnights/cmake-build-debug/Server
 
 //Value Computed by CMake
-untitled_SOURCE_DIR:STATIC=B:/Lucas/Desktop/PanKnights/Client
+untitled_SOURCE_DIR:STATIC=B:/Lucas/Desktop/PanKnights/Server
 
 
 ########################

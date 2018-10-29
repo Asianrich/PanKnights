@@ -8,9 +8,7 @@ int main() {
 
     frame("\t\t\t\tHello Adventurer!\t\t\t\t");
 
-    //takeaction();
-
-    Team test;
+    takeaction();
 
 
     std::cout << "Goodbye!" << std::endl;

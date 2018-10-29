@@ -49,9 +49,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/Game.dir/DependInfo.cmake"
   "Server/CMakeFiles/Server.dir/DependInfo.cmake"
-  "Client/CMakeFiles/Stats.dir/DependInfo.cmake"
-  "Client/CMakeFiles/Job.dir/DependInfo.cmake"
-  "Client/CMakeFiles/Team.dir/DependInfo.cmake"
-  "Client/CMakeFiles/Character.dir/DependInfo.cmake"
+  "Client/CMakeFiles/Client.dir/DependInfo.cmake"
   )

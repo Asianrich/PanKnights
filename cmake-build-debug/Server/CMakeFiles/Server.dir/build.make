@@ -94,17 +94,169 @@ Server\CMakeFiles\Server.dir\server_main.cpp.obj.provides: Server\CMakeFiles\Ser
 Server\CMakeFiles\Server.dir\server_main.cpp.obj.provides.build: Server\CMakeFiles\Server.dir\server_main.cpp.obj
 
 
+Server\CMakeFiles\Server.dir\__\Game\Unit\Character.cpp.obj: Server\CMakeFiles\Server.dir\flags.make
+Server\CMakeFiles\Server.dir\__\Game\Unit\Character.cpp.obj: ..\Game\Unit\Character.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=B:\Lucas\Desktop\PanKnights\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Server/CMakeFiles/Server.dir/__/Game/Unit/Character.cpp.obj"
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server
+	C:\PROGRA~2\MICROS~3\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Server.dir\__\Game\Unit\Character.cpp.obj /FdCMakeFiles\Server.dir\ /FS -c B:\Lucas\Desktop\PanKnights\Game\Unit\Character.cpp
+<<
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
+
+Server\CMakeFiles\Server.dir\__\Game\Unit\Character.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/__/Game/Unit/Character.cpp.i"
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server
+	C:\PROGRA~2\MICROS~3\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\Hostx86\x86\cl.exe > CMakeFiles\Server.dir\__\Game\Unit\Character.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E B:\Lucas\Desktop\PanKnights\Game\Unit\Character.cpp
+<<
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
+
+Server\CMakeFiles\Server.dir\__\Game\Unit\Character.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/__/Game/Unit/Character.cpp.s"
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server
+	C:\PROGRA~2\MICROS~3\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Server.dir\__\Game\Unit\Character.cpp.s /c B:\Lucas\Desktop\PanKnights\Game\Unit\Character.cpp
+<<
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
+
+Server\CMakeFiles\Server.dir\__\Game\Unit\Character.cpp.obj.requires:
+
+.PHONY : Server\CMakeFiles\Server.dir\__\Game\Unit\Character.cpp.obj.requires
+
+Server\CMakeFiles\Server.dir\__\Game\Unit\Character.cpp.obj.provides: Server\CMakeFiles\Server.dir\__\Game\Unit\Character.cpp.obj.requires
+	$(MAKE) -f Server\CMakeFiles\Server.dir\build.make /nologo -$(MAKEFLAGS) Server\CMakeFiles\Server.dir\__\Game\Unit\Character.cpp.obj.provides.build
+.PHONY : Server\CMakeFiles\Server.dir\__\Game\Unit\Character.cpp.obj.provides
+
+Server\CMakeFiles\Server.dir\__\Game\Unit\Character.cpp.obj.provides.build: Server\CMakeFiles\Server.dir\__\Game\Unit\Character.cpp.obj
+
+
+Server\CMakeFiles\Server.dir\__\Game\Unit\Job.cpp.obj: Server\CMakeFiles\Server.dir\flags.make
+Server\CMakeFiles\Server.dir\__\Game\Unit\Job.cpp.obj: ..\Game\Unit\Job.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=B:\Lucas\Desktop\PanKnights\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Server/CMakeFiles/Server.dir/__/Game/Unit/Job.cpp.obj"
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server
+	C:\PROGRA~2\MICROS~3\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Server.dir\__\Game\Unit\Job.cpp.obj /FdCMakeFiles\Server.dir\ /FS -c B:\Lucas\Desktop\PanKnights\Game\Unit\Job.cpp
+<<
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
+
+Server\CMakeFiles\Server.dir\__\Game\Unit\Job.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/__/Game/Unit/Job.cpp.i"
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server
+	C:\PROGRA~2\MICROS~3\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\Hostx86\x86\cl.exe > CMakeFiles\Server.dir\__\Game\Unit\Job.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E B:\Lucas\Desktop\PanKnights\Game\Unit\Job.cpp
+<<
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
+
+Server\CMakeFiles\Server.dir\__\Game\Unit\Job.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/__/Game/Unit/Job.cpp.s"
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server
+	C:\PROGRA~2\MICROS~3\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Server.dir\__\Game\Unit\Job.cpp.s /c B:\Lucas\Desktop\PanKnights\Game\Unit\Job.cpp
+<<
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
+
+Server\CMakeFiles\Server.dir\__\Game\Unit\Job.cpp.obj.requires:
+
+.PHONY : Server\CMakeFiles\Server.dir\__\Game\Unit\Job.cpp.obj.requires
+
+Server\CMakeFiles\Server.dir\__\Game\Unit\Job.cpp.obj.provides: Server\CMakeFiles\Server.dir\__\Game\Unit\Job.cpp.obj.requires
+	$(MAKE) -f Server\CMakeFiles\Server.dir\build.make /nologo -$(MAKEFLAGS) Server\CMakeFiles\Server.dir\__\Game\Unit\Job.cpp.obj.provides.build
+.PHONY : Server\CMakeFiles\Server.dir\__\Game\Unit\Job.cpp.obj.provides
+
+Server\CMakeFiles\Server.dir\__\Game\Unit\Job.cpp.obj.provides.build: Server\CMakeFiles\Server.dir\__\Game\Unit\Job.cpp.obj
+
+
+Server\CMakeFiles\Server.dir\__\Game\Unit\Stats.cpp.obj: Server\CMakeFiles\Server.dir\flags.make
+Server\CMakeFiles\Server.dir\__\Game\Unit\Stats.cpp.obj: ..\Game\Unit\Stats.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=B:\Lucas\Desktop\PanKnights\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Server/CMakeFiles/Server.dir/__/Game/Unit/Stats.cpp.obj"
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server
+	C:\PROGRA~2\MICROS~3\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Server.dir\__\Game\Unit\Stats.cpp.obj /FdCMakeFiles\Server.dir\ /FS -c B:\Lucas\Desktop\PanKnights\Game\Unit\Stats.cpp
+<<
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
+
+Server\CMakeFiles\Server.dir\__\Game\Unit\Stats.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/__/Game/Unit/Stats.cpp.i"
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server
+	C:\PROGRA~2\MICROS~3\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\Hostx86\x86\cl.exe > CMakeFiles\Server.dir\__\Game\Unit\Stats.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E B:\Lucas\Desktop\PanKnights\Game\Unit\Stats.cpp
+<<
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
+
+Server\CMakeFiles\Server.dir\__\Game\Unit\Stats.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/__/Game/Unit/Stats.cpp.s"
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server
+	C:\PROGRA~2\MICROS~3\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Server.dir\__\Game\Unit\Stats.cpp.s /c B:\Lucas\Desktop\PanKnights\Game\Unit\Stats.cpp
+<<
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
+
+Server\CMakeFiles\Server.dir\__\Game\Unit\Stats.cpp.obj.requires:
+
+.PHONY : Server\CMakeFiles\Server.dir\__\Game\Unit\Stats.cpp.obj.requires
+
+Server\CMakeFiles\Server.dir\__\Game\Unit\Stats.cpp.obj.provides: Server\CMakeFiles\Server.dir\__\Game\Unit\Stats.cpp.obj.requires
+	$(MAKE) -f Server\CMakeFiles\Server.dir\build.make /nologo -$(MAKEFLAGS) Server\CMakeFiles\Server.dir\__\Game\Unit\Stats.cpp.obj.provides.build
+.PHONY : Server\CMakeFiles\Server.dir\__\Game\Unit\Stats.cpp.obj.provides
+
+Server\CMakeFiles\Server.dir\__\Game\Unit\Stats.cpp.obj.provides.build: Server\CMakeFiles\Server.dir\__\Game\Unit\Stats.cpp.obj
+
+
+Server\CMakeFiles\Server.dir\__\Game\Unit\Team.cpp.obj: Server\CMakeFiles\Server.dir\flags.make
+Server\CMakeFiles\Server.dir\__\Game\Unit\Team.cpp.obj: ..\Game\Unit\Team.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=B:\Lucas\Desktop\PanKnights\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Server/CMakeFiles/Server.dir/__/Game/Unit/Team.cpp.obj"
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server
+	C:\PROGRA~2\MICROS~3\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Server.dir\__\Game\Unit\Team.cpp.obj /FdCMakeFiles\Server.dir\ /FS -c B:\Lucas\Desktop\PanKnights\Game\Unit\Team.cpp
+<<
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
+
+Server\CMakeFiles\Server.dir\__\Game\Unit\Team.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Server.dir/__/Game/Unit/Team.cpp.i"
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server
+	C:\PROGRA~2\MICROS~3\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\Hostx86\x86\cl.exe > CMakeFiles\Server.dir\__\Game\Unit\Team.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E B:\Lucas\Desktop\PanKnights\Game\Unit\Team.cpp
+<<
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
+
+Server\CMakeFiles\Server.dir\__\Game\Unit\Team.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Server.dir/__/Game/Unit/Team.cpp.s"
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server
+	C:\PROGRA~2\MICROS~3\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Server.dir\__\Game\Unit\Team.cpp.s /c B:\Lucas\Desktop\PanKnights\Game\Unit\Team.cpp
+<<
+	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug
+
+Server\CMakeFiles\Server.dir\__\Game\Unit\Team.cpp.obj.requires:
+
+.PHONY : Server\CMakeFiles\Server.dir\__\Game\Unit\Team.cpp.obj.requires
+
+Server\CMakeFiles\Server.dir\__\Game\Unit\Team.cpp.obj.provides: Server\CMakeFiles\Server.dir\__\Game\Unit\Team.cpp.obj.requires
+	$(MAKE) -f Server\CMakeFiles\Server.dir\build.make /nologo -$(MAKEFLAGS) Server\CMakeFiles\Server.dir\__\Game\Unit\Team.cpp.obj.provides.build
+.PHONY : Server\CMakeFiles\Server.dir\__\Game\Unit\Team.cpp.obj.provides
+
+Server\CMakeFiles\Server.dir\__\Game\Unit\Team.cpp.obj.provides.build: Server\CMakeFiles\Server.dir\__\Game\Unit\Team.cpp.obj
+
+
 # Object files for target Server
 Server_OBJECTS = \
-"CMakeFiles\Server.dir\server_main.cpp.obj"
+"CMakeFiles\Server.dir\server_main.cpp.obj" \
+"CMakeFiles\Server.dir\__\Game\Unit\Character.cpp.obj" \
+"CMakeFiles\Server.dir\__\Game\Unit\Job.cpp.obj" \
+"CMakeFiles\Server.dir\__\Game\Unit\Stats.cpp.obj" \
+"CMakeFiles\Server.dir\__\Game\Unit\Team.cpp.obj"
 
 # External object files for target Server
 Server_EXTERNAL_OBJECTS =
 
 Server\Server.exe: Server\CMakeFiles\Server.dir\server_main.cpp.obj
+Server\Server.exe: Server\CMakeFiles\Server.dir\__\Game\Unit\Character.cpp.obj
+Server\Server.exe: Server\CMakeFiles\Server.dir\__\Game\Unit\Job.cpp.obj
+Server\Server.exe: Server\CMakeFiles\Server.dir\__\Game\Unit\Stats.cpp.obj
+Server\Server.exe: Server\CMakeFiles\Server.dir\__\Game\Unit\Team.cpp.obj
 Server\Server.exe: Server\CMakeFiles\Server.dir\build.make
 Server\Server.exe: Server\CMakeFiles\Server.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=B:\Lucas\Desktop\PanKnights\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Server.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=B:\Lucas\Desktop\PanKnights\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Server.exe"
 	cd B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server
 	"C:\Program Files\JetBrains\CLion 2018.1.1\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Server.dir --manifests  -- C:\PROGRA~2\MICROS~3\2017\Enterprise\VC\Tools\MSVC\14.12.25827\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Server.dir\objects1.rsp @<<
  /out:Server.exe /implib:Server.lib /pdb:B:\Lucas\Desktop\PanKnights\cmake-build-debug\Server\Server.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
@@ -117,6 +269,10 @@ Server\CMakeFiles\Server.dir\build: Server\Server.exe
 .PHONY : Server\CMakeFiles\Server.dir\build
 
 Server\CMakeFiles\Server.dir\requires: Server\CMakeFiles\Server.dir\server_main.cpp.obj.requires
+Server\CMakeFiles\Server.dir\requires: Server\CMakeFiles\Server.dir\__\Game\Unit\Character.cpp.obj.requires
+Server\CMakeFiles\Server.dir\requires: Server\CMakeFiles\Server.dir\__\Game\Unit\Job.cpp.obj.requires
+Server\CMakeFiles\Server.dir\requires: Server\CMakeFiles\Server.dir\__\Game\Unit\Stats.cpp.obj.requires
+Server\CMakeFiles\Server.dir\requires: Server\CMakeFiles\Server.dir\__\Game\Unit\Team.cpp.obj.requires
 
 .PHONY : Server\CMakeFiles\Server.dir\requires
 
