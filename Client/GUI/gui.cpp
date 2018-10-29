@@ -128,7 +128,7 @@ void takeaction(){
     int option = 0;
 
     cout << "Select an Option:" << endl;
-/*
+
     for(int i = 0; i< cteam.getSize(); i++){
         cout << i+1;
         cout << ". ";
@@ -158,5 +158,5 @@ void takeaction(){
         cout << "Please make a selection" << endl;
         return takeaction();
     }
-    */
+
 }
