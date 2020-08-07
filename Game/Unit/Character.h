@@ -14,6 +14,7 @@ public:
 
     Stats getStats();
     char* getName();
+    void changeName(char* name);
 
 private:
 
