@@ -8,3 +8,7 @@
 char* Character::getName() {
     return name;
 }
+
+Stats Character::getStats(){
+    return stats;
+}

@@ -12,7 +12,7 @@ class Character {
 public:
 
 
-
+    Stats getStats();
     char* getName();
 
 private:
