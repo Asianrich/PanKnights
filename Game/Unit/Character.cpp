@@ -12,3 +12,7 @@ char* Character::getName() {
 Stats Character::getStats(){
     return stats;
 }
+
+void Character::changeName(char* name){
+    this.name = name;
+}
